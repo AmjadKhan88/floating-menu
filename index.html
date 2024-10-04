@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<ul class="menu">
+    <div class="menuToggle"><i>+</i></div>
+    <li style="--i:0;--clr:#ff2972">
+        <a href="#"><i class="fa fa-video"></i></a>
+    </li>
+    <li style="--i:1;--clr:#fee800">
+        <a href="#" title="home"><i class="fa fa-home"></i></a>
+    </li>
+    <li style="--i:2;--clr:#04fc43">
+        <a href="#" title="about us"><i class="fa fa-user"></i></a>
+    </li>
+    <li style="--i:3;--clr:#fe00f1">
+        <a href="#" title="contact us"><i class="fa fa-phone"></i></a>
+    </li>
+    <li style="--i:4;--clr:#00b0fe">
+        <a href="#" title="sittings"><i class="fa fa-key"></i></a>
+    </li>
+    <li style="--i:5;--clr:#fea600">
+        <a href="#" title="facebook"><i class="glass fa-facebook"></i></a>
+    </li>
+    <li style="--i:6;--clr:#a529ff">
+        <a href="#" title="tiktok"><i class="fa fa-video"></i></a>
+    </li>
+    <li style="--i:7;--clr:#01bdab">
+        <a href="#" title="linkdin"><i class="fa fa-phone"></i></a>
+    </li>
+</ul>
+
+
+
+
+
+
+
+
+    <script src="all.min.js"></script>
+    <script>
+        let menuToggle = document.querySelector('.menuToggle');
+        let menu = document.querySelector('.menu');
+        menuToggle.onclick = function ( ){
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
